@@ -1,0 +1,5 @@
+{
+  "name": "server-setup",
+  "version": "1.0.0",
+  "description": "Interactive production server hardening for Ubuntu VPS"
+}
