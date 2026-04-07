@@ -1,10 +1,16 @@
 ---
 name: server-setup
-description: Interactive production server hardening. SSH into a server, audit its current state, and apply security hardening step by step. Use when setting up a new VPS or hardening an existing one.
+description: Interactive production server hardening for Ubuntu VPS. SSH into a server, audit its security state, and apply hardening (SSH, firewall, fail2ban, sysctl, Nginx, Redis, Node.js, monitoring) step by step. Use when setting up a new VPS or hardening an existing one.
 disable-model-invocation: true
 argument-hint: "[user@host]"
 allowed-tools: Bash Read AskUserQuestion
 effort: high
+license: MIT
+compatibility: Requires SSH access to an Ubuntu 22.04/24.04 server
+metadata:
+  author: madhav23bansal
+  version: "1.0.0"
+  tags: server, security, hardening, devops, ubuntu, nginx, redis, nodejs
 ---
 
 # Production Server Setup & Hardening
