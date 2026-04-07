@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "devops-skills",
+  "version": "1.0.0",
+  "description": "DevOps and server management plugins for Claude Code",
+  "owner": {
+    "name": "Madhav Bansal",
+    "email": "madhavb.dev@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "server-setup",
+      "description": "Interactive production server hardening for Ubuntu VPS. SSH into a server, audit its security state, and apply hardening step by step.",
+      "version": "1.0.0",
+      "source": "./plugins/server-setup",
+      "category": "devops"
+    }
+  ]
+}
